@@ -11,4 +11,4 @@ class Products(models.Model):
     GovtApprovedID = models.IntegerField(max_length=200)
     ExpiryDate = models.DateField(max_length=12)
 
-class Order(models.Model):
+#class Order(models.Model):
