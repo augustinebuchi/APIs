@@ -1,6 +1,6 @@
 from django.contrib import admin
-from .models import User
-from .models import Products
+from .models import Customers, Products, Orders
 
-admin.site.register(User)
+admin.site.register(Customers)
 admin.site.register(Products)
+admin.site.register(Orders)
